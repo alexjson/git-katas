@@ -35,10 +35,17 @@ Or alternatively other tools you already are familiar with:
 
 ### Aliases
 
+
 You can set up aliases as such:
+* `git config --global alias.st status`
+
+and use it with `git st`.
+
+If the command you wish to alias contains spaces you need quotes.
+For Unix you use single quotes and for Windows users you need double qoutes:
 * `git config --global alias.lol 'log --oneline --graph --all'`
 
-This might be useful to you when you look at the Git graph.
+The command above might be useful to you when you look at the Git graph.
 Paste that into your terminal, and try it out with `git lol`.
 
 ### SSH authentication
